@@ -7,12 +7,11 @@
     "watch": "nodemon ./lib/index.js",
     "debug": "node --inspect ./lib/index.js",
     "build-ts": "tsc",
-    "watch-ts": "tsc -w",
-    "local-publish": "cross-env npm publish --registry http://192.168.201.50:4884"
+    "watch-ts": "tsc -w"
   },
   "repository": {
     "type": "git",
-    "url": "git@192.168.201.13:smms-components/package.git"
+    "url": "git@github.com:dawiidio/node-typescript-starter.git"
   },
   "keywords": [],
   "author": "Dawid Wojda <dawiidio@gmail.com>",
